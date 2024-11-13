@@ -1,0 +1,133 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d9e8ee"
+    tools:context=".Licence_1ere">
+
+    <LinearLayout
+        android:id="@+id/foodItemActvity_linearLayout_fragments"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Semestre I :"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/SGBD"
+            android:background="@drawable/border"
+            style="@style/MatiereStyle"
+            android:text="SGBD" />
+
+        <TextView
+            android:id="@+id/sys"
+            android:background="@drawable/border"
+            style="@style/MatiereStyle"
+            android:text="Systèmes Multi-Agents " />
+
+        <TextView
+            android:id="@+id/bdd"
+            android:background="@drawable/border"
+            style="@style/MatiereStyle"
+            android:text="Base de Données Avancées" />
+
+        <TextView
+            android:id="@+id/complix"
+            android:background="@drawable/border"
+            style="@style/MatiereStyle"
+            android:text="Complexité Algo" />
+
+        <TextView
+            android:id="@+id/gestion"
+            android:background="@drawable/border"
+            style="@style/MatiereStyle"
+            android:text="Gestion de la Qualité" />
+
+        <TextView
+            android:id="@+id/gl"
+            android:background="@drawable/border"
+            style="@style/MatiereStyle"
+            android:text="Génie Logiciel" />
+
+
+        <TextView
+            android:id="@+id/LIA"
+            android:background="@drawable/border"
+            style="@style/MatiereStyle"
+            android:text="Logique pour l'Intelligence Artificielle" />
+        <TextView
+            android:id="@+id/GL"
+            android:background="@drawable/border"
+            style="@style/MatiereStyle"
+            android:text="Génie logiciel" />
+
+        <TextView
+            android:id="@+id/Anglais"
+            android:background="@drawable/border"
+            style="@style/MatiereStyle"
+            android:text="Anglais" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Semestre II :"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/spécification"
+            style="@style/MatiereStyle"
+            android:layout_height="68dp"
+            android:background="@drawable/border"
+            android:text="Spécification et Conception des Logiciels" />
+
+        <TextView
+            android:id="@+id/IA"
+            android:background="@drawable/border"
+            style="@style/MatiereStyle"
+            android:text=" IA" />
+
+        <TextView
+            android:id="@+id/construction"
+            style="@style/MatiereStyle"
+            android:layout_height="66dp"
+            android:background="@drawable/border"
+            android:text="Construction des applications réparties" />
+
+        <TextView
+            android:id="@+id/math"
+            style="@style/MatiereStyle"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:text="Math appliquée" />
+
+        <TextView
+            android:id="@+id/VFSI"
+            android:background="@drawable/border"
+            style="@style/MatiereStyle"
+            android:text=" VFSI" />
+        <TextView
+            android:id="@+id/pw"
+            android:background="@drawable/border"
+            style="@style/MatiereStyle"
+            android:text=" Programmation Web" />
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

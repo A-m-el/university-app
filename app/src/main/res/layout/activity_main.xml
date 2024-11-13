@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <TextView
+            android:id="@+id/accueil"
+            style="@style/CategoryStyle"
+            android:layout_marginTop="5sp"
+            android:background="@drawable/raduis "
+            android:backgroundTint="@color/Orange"
+            android:text="Accueil" />
+
+
+        <TextView
+            android:id="@+id/DptInfo"
+            style="@style/CategoryStyle"
+            android:background="@drawable/raduis "
+            android:backgroundTint="#0A4158"
+            android:text="Département informatique" />
+
+        <TextView
+            android:id="@+id/DptMath"
+            style="@style/CategoryStyle"
+            android:background="@drawable/raduis "
+            android:backgroundTint="#808080"
+            android:text="Département mathématique" />
+
+
+        <TextView
+            android:id="@+id/AvisCons"
+            style="@style/CategoryStyle"
+            android:background="@drawable/raduis "
+            android:backgroundTint="#B7AC44"
+            android:text="Avis des consultaions" />
+
+
+    </TableLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:baselineAligned="false"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:onClick="onSendMailPro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

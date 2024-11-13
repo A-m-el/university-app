@@ -1,0 +1,113 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d9e8ee"
+    tools:context=".Licence_1ere">
+
+    <LinearLayout
+        android:id="@+id/foodItemActvity_linearLayout_fragments"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Semestre I :"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ORO"
+            style="@style/MatiereStyle"
+            android:layout_height="68dp"
+            android:background="@drawable/border"
+            android:text="Optimisation en Recherche Opérationnelle " />
+
+        <TextView
+            android:id="@+id/séd"
+            android:background="@drawable/border"
+            style="@style/MatiereStyle"
+            android:text="Simulation à évènement discret" />
+
+        <TextView
+            android:id="@+id/bdd"
+            android:background="@drawable/border"
+            style="@style/MatiereStyle"
+            android:text="Base de Données Avancées" />
+
+        <TextView
+            android:id="@+id/RSF"
+            android:background="@drawable/border"
+            style="@style/MatiereStyle"
+            android:text="RSF" />
+
+        <TextView
+            android:id="@+id/Approche"
+            android:background="@drawable/border"
+            style="@style/MatiereStyle"
+            android:text="Approche par composants" />
+
+        <TextView
+            android:id="@+id/web"
+            android:background="@drawable/border"
+            style="@style/MatiereStyle"
+            android:text="Web Services" />
+
+
+        <TextView
+            android:id="@+id/AGRO"
+            android:background="@drawable/border"
+            style="@style/MatiereStyle"
+            android:text="AGRO" />
+        <TextView
+            android:id="@+id/réseaux"
+            android:background="@drawable/border"
+            style="@style/MatiereStyle"
+            android:text="Réseaux locaux et équipements actifs" />
+
+
+        <TextView
+            android:id="@+id/ARL"
+            android:background="@drawable/border"
+            style="@style/MatiereStyle"
+            android:text="ARL" />
+
+        <TextView
+            android:id="@+id/Anglais"
+            android:background="@drawable/border"
+            style="@style/MatiereStyle"
+            android:text="Anglais" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Semestre II :"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/mathapp"
+            android:background="@drawable/border"
+            style="@style/MatiereStyle"
+            android:text="Math appliquées" />
+
+        <TextView
+            android:id="@+id/TFM"
+            android:background="@drawable/border"
+            style="@style/MatiereStyle"
+            android:text=" TFM" />
+
+
+    </LinearLayout>
+
+</ScrollView>

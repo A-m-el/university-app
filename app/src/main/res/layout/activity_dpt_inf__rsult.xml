@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DptInf_Rsult">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/CategoryStyle"
+            android:text="Licence"
+            android:background="@drawable/raduis "
+            android:backgroundTint="#7391C8"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/CategoryStyle"
+            android:text="Master GL"
+            android:background="@drawable/raduis "
+            android:backgroundTint="#82A4E3"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/CategoryStyle"
+            android:text="Master RT"
+            android:background="@drawable/raduis "
+            android:backgroundTint="#52688F"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/CategoryStyle"
+            android:text="Mastr GI"
+            android:background="@drawable/raduis "
+            android:backgroundTint="#BDC6D9"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

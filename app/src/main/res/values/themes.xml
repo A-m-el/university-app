@@ -1,0 +1,63 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.UniversityIbnKhaldoun" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/AcueilColor</item>
+        <item name="colorPrimaryDark">@color/black</item>
+    </style>
+
+
+    <style name="colorAccueil" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/Orange</item>
+        <item name="colorPrimaryDark">@color/black</item>
+    </style>
+
+    <style name="colorDptInfo" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/DptInfo_Color</item>
+        <item name="colorPrimaryDark">@color/DptInfo_Color</item>
+    </style>
+
+    <style name="DptMath" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/Grey_DprtMath</item>
+        <item name="colorPrimaryDark">@color/Grey_DprtMath</item>
+    </style>
+
+    <style name="Avis_consultation" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/Avis_consultColor</item>
+        <item name="colorPrimaryDark">@color/Avis_consultColor</item>
+    </style>
+
+    <style name="CategoryStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:layout_margin">5sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+    <style name="MatiereStyle">
+        <item name="android:layout_height">45dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+
+
+    <dimen name="list_item_height">88dp</dimen>
+
+    <style name="Theme.UniversityIbnKhaldoun.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.UniversityIbnKhaldoun.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.UniversityIbnKhaldoun.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    
+
+</resources>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">UniversityIbnKhaldoun</string>
+    <string name="CatAccueil">Accueil</string>
+
+    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="Informatique">Département Informatique</string>
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="math">Départemnt mathématique</string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="consul">Avis des consultation</string>
+
+    <string name="cour">Cours</string>
+
+    <string name="result">Résultats</string>
+    <string name="title_activity_licence_3eme">3 éme annéé</string>
+    <string name="Licence_2eme">2 éme année</string>
+    <string name="Licece_1ere">1 ére année</string>
+    <string name="Licence_Activity">Licence</string>
+    <string name="Master_GL">Master GL</string>
+    <string name="Master_RT">Master RT</string>
+    <string name="Master_GI">Master GI</string>
+    <string name="Master_1_GL">Master 1 GL</string>
+    <string name="Master_2_GL">Master 2 GL</string>
+    <string name="Master_1_RT">Master 1 RT</string>
+    <string name="Master_2_RT">Master 2 RT</string>
+    <string name="Mastert_1_GI">Master 1 GI</string>
+    <string name="Master_2_GI">Master 2 GI</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="EmailProf">Envoyez un E-mail</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

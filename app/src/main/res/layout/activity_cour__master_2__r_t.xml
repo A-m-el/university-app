@@ -1,0 +1,78 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d9e8ee"
+    tools:context=".Licence_1ere">
+
+    <LinearLayout
+        android:id="@+id/foodItemActvity_linearLayout_fragments"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Semestre I :"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/codage"
+            style="@style/MatiereStyle"
+            android:layout_height="67dp"
+            android:background="@drawable/border"
+            android:text="Codage et transport de flux multimédial" />
+
+        <TextView
+            android:id="@+id/DAMA"
+            android:background="@drawable/border"
+            style="@style/MatiereStyle"
+            android:text="DAMA" />
+
+        <TextView
+            android:id="@+id/recherche"
+            android:background="@drawable/border"
+            style="@style/MatiereStyle"
+            android:text="Recherche Bibliographique" />
+
+        <TextView
+            android:id="@+id/légilistation"
+            android:background="@drawable/border"
+            style="@style/MatiereStyle"
+            android:text="Législation et déontologie du travail" />
+
+        <TextView
+            android:id="@+id/GPI"
+            android:background="@drawable/border"
+            style="@style/MatiereStyle"
+            android:text="GPI" />
+
+
+
+        <TextView
+            android:id="@+id/théorie"
+            android:background="@drawable/border"
+            style="@style/MatiereStyle"
+            android:text="Théorie de l'Information" />
+        <TextView
+            android:id="@+id/sécurité"
+            android:background="@drawable/border"
+            style="@style/MatiereStyle"
+            android:text="Sécurité des réseaux et du Web" />
+        <TextView
+            android:id="@+id/parallélismee"
+            android:background="@drawable/border"
+            style="@style/MatiereStyle"
+            android:text="Parallélisme et Clustering" />
+
+
+    </LinearLayout>
+
+</ScrollView>

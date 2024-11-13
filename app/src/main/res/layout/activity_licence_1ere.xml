@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d9e8ee"
+    tools:context=".Licence_1ere">
+
+    <LinearLayout
+        android:id="@+id/foodItemActvity_linearLayout_fragments"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Semestre I :"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Algorithmique1"
+            android:background="@drawable/border"
+            style="@style/MatiereStyle"
+            android:text="Algorithmique I" />
+
+    <TextView
+        android:id="@+id/Analyse1"
+        android:background="@drawable/border"
+        style="@style/MatiereStyle"
+        android:text="Analyse I" />
+
+        <TextView
+            android:id="@+id/Structure1"
+            android:background="@drawable/border"
+            style="@style/MatiereStyle"
+            android:text="Structure des machines  I" />
+
+        <TextView
+            android:id="@+id/phisiqye"
+            android:background="@drawable/border"
+            style="@style/MatiereStyle"
+            android:text="Algébre I" />
+
+        <TextView
+            android:id="@+id/Algebre1"
+            android:background="@drawable/border"
+            style="@style/MatiereStyle"
+            android:text="Physic I " />
+
+       <TextView
+        android:id="@+id/Tech"
+        android:background="@drawable/border"
+        style="@style/MatiereStyle"
+        android:text="Technique d'expression" />
+
+        <TextView
+            android:id="@+id/Anglais"
+            android:background="@drawable/border"
+            style="@style/MatiereStyle"
+            android:text="Anglais" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Semestre II :"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Algorithmique2"
+            android:background="@drawable/border"
+            style="@style/MatiereStyle"
+            android:text="Algorithmique II" />
+
+        <TextView
+            android:id="@+id/Analyse2"
+            android:background="@drawable/border"
+            style="@style/MatiereStyle"
+            android:text="Analyse II" />
+
+        <TextView
+            android:id="@+id/algebre2"
+            android:background="@drawable/border"
+            style="@style/MatiereStyle"
+            android:text="Algébre II" />
+
+        <TextView
+            android:id="@+id/POO"
+            style="@style/MatiereStyle"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:text="Outils de Programmation pour les Mathématiques " />
+
+        <TextView
+            android:id="@+id/Stat"
+            android:background="@drawable/border"
+            style="@style/MatiereStyle"
+            android:text="statistique descriptive" />
+
+        <TextView
+            android:id="@+id/électricité"
+            android:background="@drawable/border"
+            style="@style/MatiereStyle"
+            android:text="Electricité" />
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+

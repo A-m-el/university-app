@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dpt_math">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#f2f2f2">
+        
+    <TextView
+        android:id="@+id/DptMathcour"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:text="Cours"
+        android:background="#C44B4F"
+        style="@style/CategoryStyle"/>
+
+    <TextView
+        android:id="@+id/DptMathresult"
+        style="@style/CategoryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:background="#607D86"
+        android:text="Resultats" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

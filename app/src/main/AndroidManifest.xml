@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.universityibnkhaldoun">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Fmi"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UniversityIbnKhaldoun"
+        tools:replace="android:label">
+        <activity android:name=".module_algo1"></activity>
+        <activity android:name=".ShowExamRattrapage" />
+        <activity android:name=".Show_planingExam" />
+        <activity
+            android:name=".Licence_3eme"
+            android:label="3 éme année "
+            android:theme="@style/colorDptInfo" />
+        <activity android:name=".Masrter1_GI_Result" />
+        <activity android:name=".Master_AFA" />
+        <activity android:name=".Master_AFED" />
+        <activity android:name=".Licence_Math" />
+        <activity
+            android:name=".Cour_Master_2_GI"
+            android:label="@string/Master_2_GI"
+            android:theme="@style/colorDptInfo" />
+        <activity
+            android:name=".Cour_Master_1_GI"
+            android:label="@string/Mastert_1_GI"
+            android:theme="@style/colorDptInfo" />
+        <activity
+            android:name=".Cour_Master_2_RT"
+            android:label="@string/Master_2_RT"
+            android:theme="@style/colorDptInfo" />
+        <activity
+            android:name=".Cour_Master_1_RT"
+            android:label="@string/Master_1_RT"
+            android:theme="@style/colorDptInfo" />
+        <activity
+            android:name=".Master_GL_cour"
+            android:label="@string/Master_GL"
+            android:theme="@style/colorDptInfo" />
+        <activity
+            android:name=".master_GI_cour"
+            android:label="@string/Master_GI"
+            android:theme="@style/colorDptInfo" />
+        <activity
+            android:name=".Master_RT_cours"
+            android:label="@string/Master_RT"
+            android:theme="@style/colorDptInfo" /> <!-- activity android:name=".Master_GL" / -->
+        <activity
+            android:name=".cour_master_2_GL"
+            android:label="@string/Master_2_GL"
+            android:theme="@style/colorDptInfo" />
+        <activity
+            android:name=".Cour_Master_1_GL"
+            android:label="@string/Master_1_GL"
+            android:theme="@style/colorDptInfo" />
+        <activity android:name=".trytry" />
+        <activity
+            android:name=".ProfEmailActivity"
+            android:label="@string/EmailProf" />
+        <activity
+            android:name=".License"
+            android:label="@string/Licence_Activity"
+            android:theme="@style/colorDptInfo" />
+        <activity
+            android:name=".Licence_2eme"
+            android:label="@string/Licence_2eme"
+            android:theme="@style/colorDptInfo" />
+        <activity
+            android:name=".Licence_1ere"
+            android:label="@string/Licece_1ere"
+            android:theme="@style/colorDptInfo" />
+        <activity
+            android:name=".DptMtah_result"
+            android:label="@string/result" />
+        <activity
+            android:name=".DptMath_cour"
+            android:label="@string/cour" />
+        <activity
+            android:name=".DptInf_Rsult"
+            android:label="@string/result"
+            android:theme="@style/colorDptInfo" />
+        <activity
+            android:name=".DptInf_cours"
+            android:label="@string/cour"
+            android:theme="@style/colorDptInfo" />
+        <activity
+            android:name=".Dpt_math"
+            android:label="@string/math"
+            android:theme="@style/DptMath" />
+        <activity
+            android:name=".Dpt_Informatique"
+            android:label="@string/Informatique"
+            android:theme="@style/colorDptInfo" />
+        <activity
+            android:name=".Accueil"
+            android:label="@string/CatAccueil"
+            android:theme="@style/colorAccueil" />
+        <activity
+            android:name=".Avis_consul"
+            android:label="@string/consul"
+            android:theme="@style/Avis_consultation" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
